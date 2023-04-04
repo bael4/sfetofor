@@ -10,12 +10,13 @@
 		9236F9FF82C2E6207ED110FD /* Pods_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3B78A22E20973C2221DA4A /* Pods_first.framework */; };
 		BE02E48129B4D3EC0056C1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02E48029B4D3EC0056C1E6 /* AppDelegate.swift */; };
 		BE02E48329B4D3EC0056C1E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02E48229B4D3EC0056C1E6 /* SceneDelegate.swift */; };
-		BE02E48529B4D3EC0056C1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02E48429B4D3EC0056C1E6 /* ViewController.swift */; };
+		BE02E48529B4D3EC0056C1E6 /* SfetoforController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02E48429B4D3EC0056C1E6 /* SfetoforController.swift */; };
 		BE02E48829B4D3EC0056C1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE02E48629B4D3EC0056C1E6 /* Main.storyboard */; };
 		BE02E48A29B4D3ED0056C1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE02E48929B4D3ED0056C1E6 /* Assets.xcassets */; };
 		BE02E48D29B4D3ED0056C1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE02E48B29B4D3ED0056C1E6 /* LaunchScreen.storyboard */; };
 		BE02E49629B4DE270056C1E6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE02E49529B4DE270056C1E6 /* SnapKit */; };
-		BEB633C729C6440A001D3D68 /* SfetoforUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB633C629C6440A001D3D68 /* SfetoforUiView.swift */; };
+		BEB633C729C6440A001D3D68 /* SfetoforSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB633C629C6440A001D3D68 /* SfetoforSectionView.swift */; };
+		BED16E7329DBFC8700958C77 /* SfetoforView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED16E7229DBFC8700958C77 /* SfetoforView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +25,13 @@
 		BE02E47D29B4D3EC0056C1E6 /* first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE02E48029B4D3EC0056C1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE02E48229B4D3EC0056C1E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE02E48429B4D3EC0056C1E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE02E48429B4D3EC0056C1E6 /* SfetoforController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfetoforController.swift; sourceTree = "<group>"; };
 		BE02E48729B4D3EC0056C1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE02E48929B4D3ED0056C1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE02E48C29B4D3ED0056C1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE02E48E29B4D3ED0056C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEB633C629C6440A001D3D68 /* SfetoforUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfetoforUiView.swift; sourceTree = "<group>"; };
+		BEB633C629C6440A001D3D68 /* SfetoforSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfetoforSectionView.swift; sourceTree = "<group>"; };
+		BED16E7229DBFC8700958C77 /* SfetoforView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfetoforView.swift; sourceTree = "<group>"; };
 		DB86900517E7EEA803DDA8BB /* Pods-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first.debug.xcconfig"; path = "Target Support Files/Pods-first/Pods-first.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +79,9 @@
 			children = (
 				BE02E48029B4D3EC0056C1E6 /* AppDelegate.swift */,
 				BE02E48229B4D3EC0056C1E6 /* SceneDelegate.swift */,
-				BE02E48429B4D3EC0056C1E6 /* ViewController.swift */,
-				BEB633C629C6440A001D3D68 /* SfetoforUiView.swift */,
+				BE02E48429B4D3EC0056C1E6 /* SfetoforController.swift */,
+				BEB633C629C6440A001D3D68 /* SfetoforSectionView.swift */,
+				BED16E7229DBFC8700958C77 /* SfetoforView.swift */,
 				BE02E48629B4D3EC0056C1E6 /* Main.storyboard */,
 				BE02E48929B4D3ED0056C1E6 /* Assets.xcassets */,
 				BE02E48B29B4D3ED0056C1E6 /* LaunchScreen.storyboard */,
@@ -93,7 +96,6 @@
 				DB86900517E7EEA803DDA8BB /* Pods-first.debug.xcconfig */,
 				0FBD234286F04C9B08FBB239 /* Pods-first.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB633C729C6440A001D3D68 /* SfetoforUiView.swift in Sources */,
-				BE02E48529B4D3EC0056C1E6 /* ViewController.swift in Sources */,
+				BEB633C729C6440A001D3D68 /* SfetoforSectionView.swift in Sources */,
+				BE02E48529B4D3EC0056C1E6 /* SfetoforController.swift in Sources */,
+				BED16E7329DBFC8700958C77 /* SfetoforView.swift in Sources */,
 				BE02E48129B4D3EC0056C1E6 /* AppDelegate.swift in Sources */,
 				BE02E48329B4D3EC0056C1E6 /* SceneDelegate.swift in Sources */,
 			);
