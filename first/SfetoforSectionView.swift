@@ -11,13 +11,9 @@ class SfetoforSectionView: UIView {
 
     private var colorLight: UIColor?
     
-    
-    
     init(colorLight: UIColor) {
         super.init(frame: .zero)
         self.colorLight = colorLight
-        
-   
     }
     
     required init?(coder: NSCoder) {
@@ -73,6 +69,4 @@ class SfetoforSectionView: UIView {
         layer.borderColor = UIColor.black.cgColor
         backgroundColor = .clear
     }
-    
-    
 }
